@@ -1,0 +1,15 @@
+fastAPI
+uvicorn
+SQLAlchemy
+pyjwt 
+bcrypt
+python-dotenv
+jose
+python-multipart
+pytest
+httpx 
+pymysql
+aiomysql
+passlib
+python-jose[cryptography]
+passlib[bcrypt]
