@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 
-SQLALCHEMY_DATABASE_URL = os.getenv("SQLALCHEMY_DATABASE_URL","mysql+pymysql://root:consultadd@localhost/fullstackprj")
+SQLALCHEMY_DATABASE_URL = os.getenv("SQLALCHEMY_DATABASE_URL","mysql+pymysql://root:consultadd@db/fullstackprj")
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 
