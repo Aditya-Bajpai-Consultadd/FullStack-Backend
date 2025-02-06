@@ -11,5 +11,3 @@ httpx
 pymysql
 aiomysql
 passlib
-python-jose[cryptography]
-passlib[bcrypt]
